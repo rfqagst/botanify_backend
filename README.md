@@ -45,17 +45,62 @@ cd botanify_backend
     node index.js
     ```
 
+## How to Run the Flask Backend for AI Plant Detection
+
 ### Set up and run the AI plant detection backend
 
 1. Navigate to the `scan_plant_backend` folder:
     ```bash
     cd ../scan_plant_backend
     ```
-2. Install the necessary Python dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Start the AI plant detection backend server:
-    ```bash
-    python app.py
-    ```
+    
+#### 1. Create a virtual environment
+Create a new virtual environment with:
+
+```bash
+python -m venv new-env
+``` 
+
+#### 2. Activate the virtual environment
+Activate the virtual environment with:
+
+- Windows
+
+```bash
+.\/new-env/Scripts/activate.bat 
+```
+Or
+```bash
+.\/new-env/Scripts/activate.ps1 
+```
+
+- Linux
+
+```bash
+source new-env/bin/activate
+```
+
+#### 3. Install required modules
+Install the required modules listed in `requirements.txt` with:
+
+```bash
+pip install -r requirements.txt
+```
+Wait until the installation is complete.
+
+#### 4. Create a `.env` file and add necessary credentials
+Create a `.env` file based on the example file `.env.example`.
+Fill in the `.env` file with your `API_KEY` and `SCORING_URL`:
+
+```
+API_KEY=YOUR_API_KEY # Find this in your IBM Cloud profile settings
+SCORING_URL=YOUR_MODEL_DEPLOYMENT_URL # Find this in your model deployments in IBM Studio
+```
+
+#### 5. Run the Flask Backend
+Run the Flask backend with:
+
+```bash
+python app.py
+```
+Wait until it starts, the application will be live at `localhost:5000`.
