@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2024 at 07:09 AM
+-- Generation Time: Jun 22, 2024 at 06:04 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,8 +43,14 @@ CREATE TABLE `informasi` (
 --
 
 INSERT INTO `informasi` (`id_informasi`, `judul`, `isi_artikel`, `kategori`, `penerbit`, `tanggal`, `url`, `foto_informasi`) VALUES
-(1, '5 Cara Mudah Rawat Tanaman Indoor, Biar Nggak Layu', '1. Disiram agar tanaman herbal tumbuh subur adalah mencukupi kebutuhan air sesuai jenis tanah, cuaca, hingga jenis tumbuhan yang kamu tanam 2. Nutrisi  memberikan nutrisi pada tanaman, kamu bisa menggunakan pupuk buatan pabrik maupun pupuk alami 3. Pangkas Teratur bertujuan agar bagian tanaman yang layu itu tidak menjalar ke bagian tanaman yang lain 4. Stek dan Mulsa Tanaman yang kurang berkayu ini akan lebih mudah berakar dengan cara stek.', 'pengetahuan', 'Ari Monawati, Desi Rhomadhoni, Nur Rokhimah Hanik', '2024-06-03 10:00:00', 'http://linkkita.com', 'http://foto.com/'),
-(6, 'Cara mudah untuk merawat tanaman', 'Sangat dipastikan, kita ingin melihat taman yang ada dirumah kita bersih dan indah. Factor keindahan dari sebuah taman adalah dari tanaman atau tumbuhanya. Maka dari itu kita harus memperhatikan kondisi tanaman tersebut agar tidak mati dan bisa tetap tumbuh. Dengan matinya tanaman pada taman rumah, membuat rumah menjadi tidak indah lagi. Biasanya tanaman yang mati itu karena perawatanya tidak tepat. Sehingga membuat tanaman menjadi mati dan layu. Sinar matahari sangat berguna dan wajib bagi tanaman pada taman, karena dengan adanya matahari membuat tanaman bisa melakukan fotosintetis. Dengan adanya proses fotosintetis, maka tanaman dapat menghasilkan oksigen yang banyak dan baik. Maka dari itu kita harus mencukupi kebutuhan sinar matahari pada taman. Pemberian sinar matahari pun akan berbeda tiap jenis tanamanya, untuk tanaman hias memerlukan 4-6 jam setiap harinya dan untuk sayur dan buah-buahan minimal 6 jam perharinya. Pemilihan tanaman pada taman juga harus memperhatikan kondisi cuaca dan kelembaban area tersebut, maka dari itu dengan menjaga cuaca dan kelembaban yang pas, maka membuat tanaman menjadi lebih susah layu. Kita harus menanam tanaman dengan memperhatikan daerah kita, jika daerah kita berada di dataran rendah maka jangan menanam tanaman yang beriklim subtropics atau tanaman dataran tinggi. Pada umumnya, setiap jenis tanaman membutuhkan air untuk kelangsungan hidupnya. Dengan adanya air juga membuat tanaman menjadi lebih sehat dan tidak kering. Tetapi kebutuhan air pada setiap jenis tanaman itu berbeda-beda. rawatlah tanaman kalian mulai sekarang, agar selalu sehat', 'TipsTrick', 'Redaksi', '2024-06-03 10:00:00', 'http://linkkita.com', 'http://foto.com/');
+(1, 'Tips Menanam Bunga Matahari\r\n', 'Bunga yang memiliki ketinggian 0,5 hingga 4,5 meter ini dapat tumbuh di mana saja. Karena bentuknya yang indah, banyak tempat wisata yang mengusung tema kebun bunga matahari sebagai daya tarik utamanya. Cara menanamnya pun cukup mudah diterapkan. Pastikan kamu memilih biji yang berkualitas agar menghasilkan tanaman yang juga bagus nantinya. Langsung saja, yuk ikuti cara menanam bunga matahari di bawah ini!', 'Tips & Trick', 'Danica Adhitiawarman', '2024-06-20 13:50:16', 'https://rfqagst.github.io/tips-menanam-bunga-matahari.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2FTips-Menanam-Bunga-Matahari.jpg?alt=media&token=964501eb-6fd2-41de-a714-bba0273f04c7'),
+(2, 'Langkah Pembuatan Bonsai Beringin', 'Tujuan pembuatan bonsai umumnya untuk hiasan taman serta rumah. Akan tetapi jauh sebelum itu, bonsai memiliki sejarah yang panjang hingga akhirnya memiliki banyak penggemar. Bonsai sebenarnya dapat dibuat sendiri asalkan kita telaten dan tahu cara pembuatannya. Selain dapat menjadi kegiatan positif berkaitan dengan pelestarian tanaman, tentunya akan lebih menghemat biaya daripada harus membeli bonsai yang harga tidak bisa dikatakan murah.', 'Tips & Trick', 'RimbaKita.com', '2024-06-20 13:50:24', 'https://rfqagst.github.io/langkah-pembuatan-bonsai-beringin.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2Fbonsai-pohon-beringin.jpg?alt=media&token=53ec3ca8-bcae-40fb-8b2e-d93461476655\r\n'),
+(3, 'Mengenal Hama Scale pada Tanaman dan Cara Membasminya\r\n', 'Hama scale berkembang di lingkungan yang hangat dan kering. Bentuk scale adalah serupa kutu bersisik kecil, lonjong dan pipih, dengan lapisan pelindung seperti cangkang. Scale umumnya menyerang bagian bawah daun dan sekitar sendi daun. Serangga tanaman scale terdiri dari tiga jenis, yakni kutu putih, scale lunak, dan scale berperisai.\r\nScale, baik scale berperisai maupun lunak, adalah yang paling merusak. Adapun scale berperisai lebih sulit dikendalikan setelah dewasa. Hama scale lunak mengeluarkan embun madu dalam jumlah besar, yang mendorong pertumbuhan jamur jelaga, jamur berwarna hitam yang mengganggu fotosintesis. Adapun kutu putih lebih mudah dikendalikan. Hama scale tidak bisa terbang, jadi penyebaran bergantung pada pergerakan crawler. Crawler dapat dideteksi dengan menempelkan selotip ganda alias double tape pada cabang tanaman.', 'Penyakit & Hama', 'kompas.com', '2024-06-20 13:50:34', 'https://rfqagst.github.io/mengenal-hamascale-pada-tanaman-dan-cara-membasminya.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2F60629c42d7de0.jpg?alt=media&token=378fe6c3-ce29-4428-ad89-3415ddc3e0ec\r\n'),
+(4, 'Penyakit Bercak Daun (Cercospora) pada Tanaman', 'Seperti namanya, penyakit bercak daun cercospora atau yang dikenal dengan nama lainnya, yaitu bercak coklat sempit (narrow brown leaf spot) merupakan salah satu penyakit yang menyerang tanaman pada bagian daun. Keberadaannya ternyata sudah tersebar luas di negara-negara penanam padi.\r\nDi Indonesia sendiri, penyakit yang satu ini pun berkembang dengan luas, terutama pada beberapa daerah lahan atau lingkungan tanaman yang kekurangan unsur hara nitrogen dan kalium. Dalam arti lain, penyakit ini bisa didatangkan karena kebutuhan dua unsur hara penting (kalium dan nitrogen) pada tanaman yang dibudidayakan kurang.', 'Penyakit & Hama', 'sampulpertanian.com', '2024-06-20 13:50:48', 'https://rfqagst.github.io/penyakit-bercak-daun.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2Fpenyakit-bercak-daun.jpg?alt=media&token=aa2038b5-855e-4e6d-b7c1-e1f79131bd8f\r\n'),
+(5, 'Momentum Tanaman Hias Indonesia Rebut Pasar Dunia', 'Ekspor florikultura atau tanaman hias Indonesia meningkat signifikan sejak pandemi Covid-19. Kendati demikian, pemerintah mendorong pelaku usaha untuk terus menggenjot ekspor dengan memanfaatkan situasi krisis energi akibat perang Ukraina-Rusia yang menekan pebisnis florikultura di Eropa saat ini. Pengembangan bisnis tanaman hias dalam negeri pun perlu terus dilakukan dengan kolaborasi.', 'Informasi', 'kompas.id', '2024-06-20 13:50:54', 'https://rfqagst.github.io/momentum-tanaman-hias-indonesia-rebut-pasar-dunia.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2F31f73683-0f22-4f0c-95e7-717470679d7d_jpg.jpg?alt=media&token=d8690063-957b-4c85-bbef-6a44d2d61a3e\r\n'),
+(6, 'FLOII Expo 2023 Buka Potensi Tanaman Hias Indonesia Tembus Pasar Global', 'PAMERAN tanaman hias Floriculture Indonesia International (FLOII) Expo 2023 digelar di ICE BSD, Tangerang, pada 28 September-1 Oktober 2023. Perhelatan kali ini mengusung tema “Rooted in Tradition, Blooming in Innovation”.Menteri Koperasi dan UMKM Teten Masduki mengatakan, Indonesia memiliki keunggulan komparatif dengan negara lain dalam hal budidaya tanaman hias. Apalagi, kemampuan rekayasa genetika dan teknologi pemeliharaan tanaman Indonesia terbilang maju.', 'Informasi', 'Ghani Nurcahyadi', '2024-06-20 13:50:59', 'https://rfqagst.github.io/floiiexpo.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2Fe17bc14dc17a298658e891a2b985c235.jpeg?alt=media&token=e48e7e65-bfa3-4303-a540-85672505ebc6\r\n'),
+(7, 'Genjot Ekspor Tanaman Bunga Indonesia', 'Kekayaan hayati tanaman berbunga dan tanaman hias (florikultura) Indonesia sangat luar biasa. Nilai ekspornya pada tiga tahun terakhir terus mengalami peningkatan.\r\nFestival bunga di Pasadena bernama Tournament of Rose (TOR) tentu bukanlah hal yang asing di telinga. Itu merupakan festival bunga terbesar di dunia. Di festival yang digelar rutin di kota pantai barat Amerika Serikat itu, Indonesia kerap kali hadir sebagai peserta. Tak hanya hadir, tim Indonesia sering mendapatkan apresiasi dari keikutsertaannya.\r\nDi festival TOR ke-125, misalnya, kendaraan hias tim Indonesia dengan tema \'Wonderful Indonesia: Paradise on Earth\' menyabet penghargaan. Kendaraan hias berdesain komodo itu dilengkapi oleh penampilan tari-tarian khas Kalimantan Timur. Tak hanya di Pasadena, Indonesia juga pernah berpartisipasi di International Festival of Fruit and Flowers di Kota Ambato, Ekuador.', 'Informasi', 'Firman Hidranto', '2024-06-20 13:51:03', 'https://rfqagst.github.io/genjot-tanaman-hias.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2FOIP%20(5).jpg?alt=media&token=2fcd49eb-5462-4d88-9b32-f99379d2f043\r\n'),
+(8, 'Mengenal Hama Thrips (Thrips tabaci) dan Mengetahui Lebih Lengkap', 'Hama yang mempunyai nama latin Thrips tabaci Lindeman ini mempunyai ukuran yang sangat kecil sehingga sulit untuk melihatnya seluruhnya secara kasat mata, namun menurut beberapa artikel serangan hama Thrips ini dikategorikan serangan no. 1 karena jika hama Thrips menyerang akan mengakibatkan fatal bagi tanaman yang diserangnya.\r\nSerangan yang ditimbulkan seperti keriting pada daun, rontoknya bunga, dan lebih parah akan terhentinya pertumbuhan pucuk karena daun mengalami kering dan rontok. Sebenarnya serangan hama Thrips tidak begitu bahaya namun yang lebih bahayanya adalah virus yang ditularkan disaat ia menggigit dan menghisap cairan di dalam daun pada tanaman.', 'Penyakit & Hama', 'sampulpertanian.com', '2024-06-20 13:51:08', 'https://rfqagst.github.io/mengenal-ama-thrips-thrips-tabaci-dan-mengetahuilebih-lengkap.html', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/informasi%2FTryp.jpg?alt=media&token=7123b7d0-49cf-4436-8e00-9a36ee45fd63\r\n');
 
 -- --------------------------------------------------------
 
@@ -125,14 +131,12 @@ INSERT INTO `infotanaman` (`id_infotanaman`, `nama_infotanaman`, `deskripsi_info
 --
 
 CREATE TABLE `koleksi` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL,
   `nama_tanaman` varchar(100) DEFAULT NULL,
   `tgl_penyiraman` date DEFAULT NULL,
   `jam_penyiraman` time DEFAULT NULL,
   `foto_tanaman` varchar(255) NOT NULL,
-  `id_user` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`id_user`) REFERENCES `user`(`id_user`)
+  `id_user` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -140,49 +144,52 @@ CREATE TABLE `koleksi` (
 --
 
 INSERT INTO `koleksi` (`id`, `nama_tanaman`, `tgl_penyiraman`, `jam_penyiraman`, `foto_tanaman`, `id_user`) VALUES
-(1, 'a', '2024-06-10', '20:16:52', 'adgha', 1);
+(1, 'Mawar', '2024-06-20', '22:25:41', 'https://firebasestorage.googleapis.com/v0/b/botanify-ecd46.appspot.com/o/userupload%2F2a369451-7a96-466e-b820-297acc3014e7.jpg?alt=media&token=a912cc62-1912-48ee-a876-23e9228f7674', '2O5D9I8CpRgrUm4LFNd7sTFUsmV2');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `penanganan`
+-- Table structure for table `penangananhama`
 --
 
-CREATE TABLE `penangananHama` (
+CREATE TABLE `penangananhama` (
   `id_penanganan` int(10) NOT NULL,
   `nama_hama` varchar(100) NOT NULL,
-  `penanganan` text NOT NULL,
-  PRIMARY KEY (`id_penanganan`)
+  `penanganan` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `penanganan`
+-- Dumping data for table `penangananhama`
 --
 
-INSERT INTO `penangananHama` (`id_penanganan`, `nama_hama`, `penanganan`) VALUES
-(1, 'kutu daun', 'Memastikan sirkulasi udara yang baik di sekitar tanaman, menghindari kelembaban berlebih, dan menggunakan fungisida berbahan dasar sulfur dapat membantu mengendalikan penyakit ini.'),
-(2, 'caterpillar', 'Pastikan tanaman tidak terlalu lembab, siram bagian bawah tanaman untuk menjaga daun tetap kering, dan gunakan fungisida berbahan dasar tembaga untuk mengendalikan penyakit ini.'),
-(3, 'aphids', 'Meningkatkan sirkulasi udara di sekitar tanaman, menghindari penyiraman di atas daun, dan menggunakan campuran air dan baking soda dapat membantu mengendalikan penyakit ini.'),
-(4, 'semut', 'Menjaga kebersihan lingkungan sekitar tanaman, menggunakan perangkap semut, dan menerapkan insektisida alami seperti minyak neem dapat membantu mengendalikan hama ini.'),
-(5, 'ladybug', 'Menghindari penggunaan pestisida berlebihan yang dapat membunuh serangga menguntungkan seperti ladybug, serta memastikan tanaman mendapatkan nutrisi yang cukup dapat membantu mengendalikan populasi hama ini.'),
-(6, 'thrips', 'Menggunakan perangkap lengket biru, memastikan sirkulasi udara yang baik, dan menggunakan insektisida berbahan dasar spinosad dapat membantu mengendalikan hama ini.'),
-(7, 'whitefly', 'Menggunakan perangkap lengket kuning, menjaga kebersihan lingkungan, dan menggunakan insektisida berbahan dasar pyrethrin dapat membantu mengendalikan hama ini.');
+INSERT INTO `penangananhama` (`id_penanganan`, `nama_hama`, `penanganan`) VALUES
+(1, 'catterpillar', 'Pastikan tanaman tidak terlalu lembab, siram bagian bawah tanaman untuk menjaga daun tetap kering, dan gunakan fungisida berbahan dasar tembaga untuk mengendalikan penyakit ini.'),
+(2, 'aphids', 'Meningkatkan sirkulasi udara di sekitar tanaman, menghindari penyiraman di atas daun, dan menggunakan campuran air dan baking soda dapat membantu mengendalikan penyakit ini.'),
+(3, 'hama semut', 'Menjaga kebersihan lingkungan sekitar tanaman, menggunakan perangkap semut, dan menerapkan insektisida alami seperti minyak neem dapat membantu mengendalikan hama ini.'),
+(4, 'ladybug', 'Menghindari penggunaan pestisida berlebihan yang dapat membunuh serangga menguntungkan seperti ladybug, serta memastikan tanaman mendapatkan nutrisi yang cukup dapat membantu mengendalikan populasi hama ini.'),
+(5, 'thrips', 'Menggunakan perangkap lengket biru, memastikan sirkulasi udara yang baik, dan menggunakan insektisida berbahan dasar spinosad dapat membantu mengendalikan hama ini.'),
+(6, 'whitefly', 'Menggunakan perangkap lengket kuning, menjaga kebersihan lingkungan, dan menggunakan insektisida berbahan dasar pyrethrin dapat membantu mengendalikan hama ini.');
 
-CREATE TABLE `penangananPenyakit` (
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `penangananpenyakit`
+--
+
+CREATE TABLE `penangananpenyakit` (
   `id_penanganan` int(10) NOT NULL,
   `nama_penyakit` varchar(100) NOT NULL,
-  `penanganan` text NOT NULL,
-  PRIMARY KEY (`id_penanganan`)
-
+  `penanganan` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
--- --------------------------------------------------------
+
 --
--- Dumping data for table `penangananPenyakit`
+-- Dumping data for table `penangananpenyakit`
 --
 
-INSERT INTO `penangananPenyakit` (`id_penanganan`, `nama_penyakit`, `penanganan`) VALUES
-(1, 'black-spot', 'Memastikan tanaman mendapatkan sinar matahari yang cukup, memangkas daun yang terinfeksi, dan menggunakan fungisida berbahan dasar mancozeb dapat membantu mengendalikan penyakit ini.'),
+INSERT INTO `penangananpenyakit` (`id_penanganan`, `nama_penyakit`, `penanganan`) VALUES
+(1, 'black spot', 'Memastikan tanaman mendapatkan sinar matahari yang cukup, memangkas daun yang terinfeksi, dan menggunakan fungisida berbahan dasar mancozeb dapat membantu mengendalikan penyakit ini.'),
 (2, 'powdery mildew', 'Menghindari kelembaban berlebih, memastikan tanaman memiliki sirkulasi udara yang baik, dan menggunakan fungisida berbahan dasar potassium bicarbonate dapat membantu mengendalikan penyakit ini.');
+
 -- --------------------------------------------------------
 
 --
@@ -238,18 +245,18 @@ INSERT INTO `tanaman` (`id_tanaman`, `nama_tanaman`, `deskripsi_tanaman`, `foto_
 --
 
 CREATE TABLE `user` (
-  `id_user` VARCHAR(255) NOT NULL,
-  `nama` VARCHAR(255) NOT NULL,
-  `email` VARCHAR(255) NOT NULL,
-  `password` VARCHAR(255) NOT NULL,
-  PRIMARY KEY (`id_user`)
+  `id_user` varchar(255) NOT NULL,
+  `nama` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 --
 -- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`id_user`, `nama`, `email`, `password`) VALUES
-(1, 'adip', 'adip', '12');
+('2O5D9I8CpRgrUm4LFNd7sTFUsmV2', 'Rifqi', 'rifqi@gmail.com', 'dwdwww');
 
 --
 -- Indexes for dumped tables
@@ -275,6 +282,18 @@ ALTER TABLE `koleksi`
   ADD KEY `id_user` (`id_user`);
 
 --
+-- Indexes for table `penangananhama`
+--
+ALTER TABLE `penangananhama`
+  ADD PRIMARY KEY (`id_penanganan`);
+
+--
+-- Indexes for table `penangananpenyakit`
+--
+ALTER TABLE `penangananpenyakit`
+  ADD PRIMARY KEY (`id_penanganan`);
+
+--
 -- Indexes for table `tanaman`
 --
 ALTER TABLE `tanaman`
@@ -294,7 +313,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `informasi`
 --
 ALTER TABLE `informasi`
-  MODIFY `id_informasi` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_informasi` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `infotanaman`
@@ -315,12 +334,6 @@ ALTER TABLE `tanaman`
   MODIFY `id_tanaman` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
--- AUTO_INCREMENT for table `user`
---
-ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
 -- Constraints for dumped tables
 --
 
@@ -328,7 +341,7 @@ ALTER TABLE `user`
 -- Constraints for table `koleksi`
 --
 ALTER TABLE `koleksi`
-  ADD CONSTRAINT `koleksi_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `koleksi_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
